@@ -1,0 +1,31 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX);
+    width: 100%;
+}
+
+.payment h1 {
+    font-size: calc(var(--textSizeBig) + 2px);
+    font-weight: 600;
+    color: var(--colorTextH1);
+    width: 70%;
+    padding: 10px 0px 10px 0px;
+}
+
+.payment h2 {
+    font-size: var(--textSizeBig);
+    font-weight: 600;
+    color: var(--colorTextH1);
+    width: 70%;
+    padding: 20px 0px 5px 0px;
+}
+.payment p {
+    font-size: var(--textSizeMiddle);
+    font-weight: 400;
+    color: var(--colorTextDefault);
+    width: 70%;    
+    padding: 0px 0px 10px 0px;
+}

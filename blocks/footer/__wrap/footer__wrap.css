@@ -1,0 +1,6 @@
+.footer__wrap {
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX);
+    display: flex;
+    flex-direction: column;
+
+}

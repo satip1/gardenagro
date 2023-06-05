@@ -1,0 +1,16 @@
+.related__card {
+    display: flex;
+    flex-direction: column;  
+    border: 2px solid var(--colorBorder);
+    max-width: 204px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    justify-content: space-between;
+    
+}
+
+.related__card:hover {
+    border: 2px solid var(--colorBorderHover);
+}
+

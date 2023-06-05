@@ -1,0 +1,28 @@
+.detail__title {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: var(--textSizeCard);
+    color: var(--colorTextCard);
+    cursor: pointer;
+    min-height: 136px;
+}
+
+/* .detail__title:hover  */
+/* .detail:hover .detail__title */
+.detail__foto:hover .detail__title
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .detail__title {
+        min-height: 122px;
+    }
+}
+
+@media (max-width: 767px) {
+    .detail__title {
+        padding: 10px 5px;
+        min-height: 101px;
+    }
+}

@@ -1,0 +1,12 @@
+.itemcard__img {
+    /* border: 1px solid salmon; */
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+
+@media (max-width: 767px) {
+    .itemcard__img {
+        grid-template-columns: 1fr;
+    }
+}

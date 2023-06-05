@@ -1,0 +1,13 @@
+.header__shipment {
+    display: none;
+}
+
+.header__shiptext:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .header__shipment {
+        display: block;        
+    }
+}

@@ -1,0 +1,14 @@
+.itemcard__slider {
+    max-width: 70px;
+    width: 100%;
+    margin-bottom: 3px;
+    border: 1px solid #d9d9d9;
+}
+
+.itemcard__slider:hover {
+    border: 1px solid #a6a4a6;
+}
+
+.itemcard__slider:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,19 @@
+.cart__input {
+    width: 100%;
+    border: 1px solid #888;
+    padding: 5px 10px;
+}
+
+.cart__input:focus {
+    border: 1px solid #4b6ecd;
+}
+
+.cart__input::placeholder {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cart__input:focus::placeholder {
+    color: transparent;
+}

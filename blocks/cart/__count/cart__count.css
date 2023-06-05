@@ -1,0 +1,8 @@
+.cart__count {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+}

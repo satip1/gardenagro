@@ -1,0 +1,21 @@
+.advice__list {
+    grid-area: list;
+    /* padding-left: 5px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 10px;
+    justify-items: center;
+}
+
+@media (max-width: 1024px) {
+    .advice__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 767px) {
+    .advice__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

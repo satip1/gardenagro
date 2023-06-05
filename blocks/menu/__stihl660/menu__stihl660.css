@@ -1,0 +1,9 @@
+.menu__stihl660 {
+    display: block;
+    padding: 20px 5px;
+    color: #0f0f0f;
+}
+
+.menu__stihl660:hover {
+    background-color: #f0784b;
+}

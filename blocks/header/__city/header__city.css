@@ -1,0 +1,20 @@
+.header__city {
+    color: white;
+    font-size: var(--textSizeBig);
+    padding-right: 70px;
+}
+
+
+@media (max-width: 1024px) {
+    .header__city {
+        padding-right: 50px;
+        font-size: var(--textSizeSmall);
+    }
+}
+
+@media (max-width: 767px) {
+    .header__city {
+        display: none;
+    }
+
+}

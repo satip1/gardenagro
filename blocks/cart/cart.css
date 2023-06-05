@@ -1,0 +1,9 @@
+.cart {
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    justify-content: center;
+    min-width: 100%;
+}

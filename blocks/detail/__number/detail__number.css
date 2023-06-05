@@ -1,0 +1,9 @@
+.detail__number {
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .detail__number {
+        font-size: 10px;
+    }
+}

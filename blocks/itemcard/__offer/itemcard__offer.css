@@ -1,0 +1,15 @@
+.itemcard__offer {
+    padding: 3px 0;
+}
+
+@media (max-width: 1024px) {
+    .itemcard__offer {
+        padding: 1px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .itemcard__offer {
+        padding: 0;
+    }
+}

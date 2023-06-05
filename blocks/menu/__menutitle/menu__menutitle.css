@@ -1,0 +1,7 @@
+.menu__menutitle {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px 0 10px 0;
+}

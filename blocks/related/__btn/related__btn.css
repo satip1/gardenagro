@@ -1,0 +1,17 @@
+.related__btn {
+    color: white;
+    font-size: 14px;
+    background-color: var(--colorBtnCart);
+    border: 1px solid transparent; 
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.related__btn:hover {
+    background-color: var(--colorBtnCartHover);
+}
+
+.related__btn:active {
+    border: 1px solid white;    
+}

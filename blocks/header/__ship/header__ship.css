@@ -1,0 +1,19 @@
+.header__ship {
+    display: flex;
+}
+
+
+@media (max-width: 767px) {
+    .header__ship {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: #f5f4f4;
+        color: #0f0f0f;   
+        right: -300px;
+        top: 100%;
+        z-index: 100;
+        transition: right .5s ease;        
+    }
+
+}

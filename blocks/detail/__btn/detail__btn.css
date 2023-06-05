@@ -1,0 +1,33 @@
+.detail__btn {
+    background-color: #dc6e45;
+    width: 80%;
+    font-family: 'Roboto';
+    font-size: var(--textSizeBig);
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.2px;
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.detail__btn:active {
+    border: 1px solid transparent;    
+}
+
+
+
+@media (max-width: 1024px) {
+    .detail__btn {
+        width: 90%;
+        font-weight: 400;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .detail__btn:hover {
+        background-color: var(--colorBtnCartHover);
+    }
+}

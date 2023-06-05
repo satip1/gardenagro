@@ -1,0 +1,8 @@
+.cart__userdata {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;  
+}

@@ -1,0 +1,12 @@
+.related__list {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+    .related__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

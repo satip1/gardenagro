@@ -1,0 +1,9 @@
+.header__label {
+    position: absolute;    
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: red;
+    display: none;
+}

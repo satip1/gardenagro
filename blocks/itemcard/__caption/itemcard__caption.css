@@ -1,0 +1,11 @@
+.itemcard__caption {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+.itemcard__caption {
+    font-size: 10px;
+    font-weight: 600;
+}
+}

@@ -1,0 +1,19 @@
+.cart__minus {
+    padding: 10px;
+    border: 1px solid #eae9ea;
+    font-size: 16px;
+    line-height: 7px;
+    cursor: pointer;
+}
+
+.cart__minus:hover {
+    border: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+    .cart__minus {
+        font-size: 14px;
+        line-height: 7px;
+    }
+
+}

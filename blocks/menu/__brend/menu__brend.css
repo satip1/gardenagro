@@ -1,0 +1,9 @@
+.menu__brend {
+font-size: 14px;
+border-bottom: 1px solid var(--colorBorder);
+cursor: pointer;
+}
+
+/* .menu__brend:hover {
+background-color: chartreuse;
+} */

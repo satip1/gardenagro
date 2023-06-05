@@ -1,0 +1,22 @@
+.detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 1px solid var(--colorBorder);
+    max-width: 302px;
+
+}
+
+.detail:hover {
+    border: 1px solid var(--colorBorderHover);
+}
+
+
+@media (max-width: 767px) {
+    .detail:hover {
+        border: 1px solid var(--colorBorderHover);
+
+    }
+
+}

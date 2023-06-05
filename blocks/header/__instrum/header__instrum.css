@@ -1,0 +1,29 @@
+.header__instrum {
+    color: #0f0f0f;
+    font-size: var(--textSizeBig);
+    margin-right: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding: 2px 0;
+    /* line-height: 59px; */
+}
+
+.header__instrum:hover {
+    border-color: #0f0f0f;
+    /* background-color: #f5f4f4; */
+}
+
+@media (max-width: 1024px) {
+    .header__instrum {
+        margin-right: 30px;  
+    }
+}
+
+
+@media (max-width: 767px) {
+    .header__instrum {
+        margin-right: 20px;  
+    }
+}
+
+

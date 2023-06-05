@@ -1,0 +1,12 @@
+.cart__send_deactive {
+    background-color: #9d9d9d;
+    cursor: not-allowed;
+}
+
+.cart__send_deactive:hover {
+    background-color: #9d9d9d;
+}
+
+.cart__send_deactive:active {
+    border: 1px solid transparent;
+}

@@ -1,0 +1,4 @@
+.cart__textempty {
+    font-size: var(--textSizeBig);
+    padding-bottom: 5px;
+}

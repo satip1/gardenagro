@@ -1,0 +1,10 @@
+.menu__namemodel {
+    display: block;
+    padding: 10px 20px;
+    color: #0f0f0f;
+    font-size: var(--textSizeMiddle);
+}
+
+.menu__namemodel:hover {
+    background-color: #f0784b;
+}

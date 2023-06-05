@@ -1,0 +1,8 @@
+.cart__img {}
+
+@media (max-width: 767px) {
+    .cart__img {
+        display: none;
+    }
+
+}

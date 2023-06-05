@@ -1,0 +1,17 @@
+.cart__plus {
+    padding: 10px 7px;
+    border: 1px solid #eae9ea;
+    font-size: 16px;
+    line-height: 7px;
+    cursor: pointer;
+}
+
+.cart__plus:hover {
+    border: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+    .cart__plus {
+        font-size: 14px;
+    }
+}

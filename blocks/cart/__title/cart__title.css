@@ -1,0 +1,9 @@
+.cart__title {
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .cart__title {
+        font-size: 12px;
+    }
+}

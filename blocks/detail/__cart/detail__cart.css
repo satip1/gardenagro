@@ -1,0 +1,19 @@
+.detail__cart {   
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+@media (max-width: 1024px) {
+.detail__cart {   
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+}

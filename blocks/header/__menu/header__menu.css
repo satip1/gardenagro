@@ -1,0 +1,15 @@
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX);
+    background-color: white;
+    border-bottom: 1px solid #eae9ea; 
+    /* position: relative; */
+}
+
+@media (max-width: 767px) {
+    .header__menu {
+        background-color: #f3f3f3;
+    }
+}

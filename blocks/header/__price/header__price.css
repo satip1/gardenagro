@@ -1,0 +1,11 @@
+.header__price {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .header__price {
+        display: none;
+    }
+
+}

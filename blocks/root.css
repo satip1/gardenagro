@@ -1,0 +1,53 @@
+:root {
+    --textSizeBig: 16px;
+    --textSizeMiddle: 14px;
+    --textSizeSmall: 12px;
+    --textSizeCard: 20px;
+    --textSizeCardTitle: 26px;
+    --textSizeCartBtn: 16px;
+    --textSizeItemCardValue: 38px;
+
+
+    --paddingSizeBlockX: 50px;
+    --paddingSizeBlockY: 14px;
+
+    --colorTextDefault: #1d1d1d;
+    --colorBorder: #eae9ea;
+    --colorBorderHover: #a6a4a6;
+    --colorTextCard: #323591;
+    --colorBtnCart: #dc6e45;
+    --colorBtnCartHover: #d36942;
+    --colorDetailStock: #89ba58;
+    --colorTextH1: #3d3d3d;
+    --colorTextBreadCrumbs: #9d9d9d;
+    --colorTextBreadCrumbsHover: #323591;
+    --colorTextItemCardAticle: #9d9d9d;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --textSizeBig: 14px;
+        --textSizeMiddle: 12px;
+        --textSizeSmall: 12px;
+        --textSizeCardTitle: 20px;
+        --textSizeItemCardValue: 30px;
+        --textSizeCartBtn: 12px;
+        --textSizeCard: 14px;
+
+        --paddingSizeBlockX: 15px;
+        --paddingSizeBlockY: 10px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --textSizeBig: 12px;
+        --textSizeSmall: 12px;
+        --textSizeCardTitle: 14px;
+
+        --paddingSizeBlockX: 7px;
+        --paddingSizeBlockY: 10px;
+
+    }
+}

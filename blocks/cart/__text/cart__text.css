@@ -1,0 +1,12 @@
+.cart__text {
+    justify-self: end;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .cart__text {
+        font-size: 12px;
+
+    }
+}

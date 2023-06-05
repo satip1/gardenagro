@@ -1,0 +1,18 @@
+.menu__namebrend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--textSizeMiddle);
+    padding: 20px 5px;
+}
+
+.menu__namebrend:hover {
+    background-color: chartreuse;
+}
+
+@media (max-width: 1024px) {
+    .menu__namebrend {
+        padding: 15px 5px;
+    }
+
+}

@@ -1,0 +1,6 @@
+.footer__howtodo {
+    border-top: 1px solid #9d9d9d;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}

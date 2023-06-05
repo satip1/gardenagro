@@ -1,0 +1,9 @@
+.cart__min {
+    font-size: 16px;    
+}
+
+@media (max-width: 767px) {
+    .cart__min {
+        font-size: 14px;
+    }
+}

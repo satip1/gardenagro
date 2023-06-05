@@ -1,0 +1,23 @@
+.itemcard__btn {
+    display: block;
+    width: 100%;
+    background-color: var(--colorBtnCart);
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-size: var(--textSizeCartBtn);
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.2px;
+    border: 1px solid transparent;  
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s easy;
+}
+
+.itemcard__btn:hover {
+    background-color: var(--colorBtnCartHover);
+}
+
+.itemcard__btn:active {
+    border: 1px solid white;    
+}

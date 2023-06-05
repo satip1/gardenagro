@@ -1,0 +1,4 @@
+.cart__nohover:hover  {
+    border: 1px solid #eae9ea !important;
+    cursor: not-allowed;
+}

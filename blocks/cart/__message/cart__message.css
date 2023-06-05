@@ -1,0 +1,17 @@
+.cart__message {
+    position: absolute;
+    display: none;
+    font-size: 14px;
+    color: red;    
+    right: 0px;
+    top: 30px;
+}
+
+@media (max-width: 767px) {
+    .cart__message {
+        font-size: 10px; 
+        top: 25px;
+    }
+}
+
+

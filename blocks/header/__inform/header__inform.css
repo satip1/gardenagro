@@ -1,0 +1,14 @@
+.header__inform {
+    display: flex;
+    align-items: center;
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX);
+    background-color: #0f0f0f;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .header__inform {
+        position: relative;
+    }
+
+}

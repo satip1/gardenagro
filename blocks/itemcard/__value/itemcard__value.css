@@ -1,0 +1,12 @@
+.itemcard__value {
+    padding: 20px 0px;
+    font-size: var(--textSizeItemCardValue);
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .itemcard__value {
+        padding: 14px 0px;
+    }
+}

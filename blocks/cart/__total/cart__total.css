@@ -1,0 +1,14 @@
+.cart__total {
+    padding: 5px;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    justify-items: center;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .cart__total {
+         grid-template-columns: 6fr 2fr;
+    }
+}

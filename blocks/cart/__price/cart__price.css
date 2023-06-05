@@ -1,0 +1,11 @@
+.cart__price {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .cart__price {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+}

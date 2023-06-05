@@ -1,0 +1,7 @@
+.parts {
+    padding: var(--paddingSizeBlockY) var(--paddingSizeBlockX);
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-areas: "menu list"; */
+    /* grid-template-columns: 1fr ; */
+}

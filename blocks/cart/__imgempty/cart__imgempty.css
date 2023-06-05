@@ -1,0 +1,12 @@
+.cart__imgempty {
+    max-width: 100px;
+    width: 100%;
+    max-height: 95px;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .cart__imgempty {
+        max-width: 60px;
+    }
+}

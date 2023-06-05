@@ -1,0 +1,29 @@
+.cart__linkempty {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--colorBtnCart);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: var(--textSizeBig);
+    text-align: center;
+    color: white;
+    transition: 1s easy;
+}
+
+.cart__linkempty:hover {
+    background-color: var(--colorBtnCartHover);
+}
+
+.cart__linkempty:active {
+    border: 1px solid white;
+}
+
+
+@media (max-width: 767px) {
+    .cart__linkempty {
+        display: block;
+        width: 70%;     
+        margin: 20px auto 0 auto;
+    }
+}

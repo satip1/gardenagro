@@ -1,0 +1,14 @@
+.breadcrumbs__link {
+    font-size: var(--textSizeSmall);
+    color: var(--colorTextBreadCrumbs);
+    cursor: pointer;
+}
+
+.breadcrumbs__link::after {
+    content: "/";
+    padding-right: 5px;
+}
+
+.breadcrumbs__link:hover {
+    color: var(--colorTextBreadCrumbsHover);
+}

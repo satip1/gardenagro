@@ -1,0 +1,9 @@
+.itemcard__text {
+    font-size: var(--textSizeSmall);
+}
+
+@media (max-width: 1024px) {
+.itemcard__text {
+    font-size: 10px;
+}
+    }

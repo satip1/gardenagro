@@ -1,0 +1,32 @@
+.header__item {
+    color: white;
+    font-size: var(--textSizeBig);
+    margin-right: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding: 2px 0;
+}
+
+.header__item:hover {
+    border-color: white;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .header__item {
+        margin: 0;
+        color: #0f0f0f;
+        padding: 10px 30px;
+        border-bottom: 1px solid #0f0f0f;
+    }
+
+    .header__item:last-child {
+        border-bottom: none;
+    }
+
+
+
+}

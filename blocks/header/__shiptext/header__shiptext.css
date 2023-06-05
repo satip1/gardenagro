@@ -1,0 +1,9 @@
+.header__shiptext {
+    color: white;
+    font-size: var(--textSizeBig);
+    border-bottom: 1px solid white;
+}
+
+/* .header__shiptext:hover {
+    cursor: pointer;
+} */

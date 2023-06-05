@@ -1,0 +1,15 @@
+.itemcard__part {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 450px;
+    overflow: hidden;
+    /* border: 1px dashed green; */
+}
+
+@media (max-width: 767px) {
+    .itemcard__part {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+}

@@ -1,0 +1,15 @@
+.header__cart {
+    display: flex;
+    padding-right: 20px;
+    position: relative;
+}
+
+
+@media (max-width: 767px) {
+    .header__cart {
+        justify-content: center;
+        flex-grow: 1;
+        padding-right: 0px;
+    }
+
+}

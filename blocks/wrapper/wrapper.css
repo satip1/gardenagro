@@ -1,0 +1,15 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        max-width: 1024px;
+    }
+
+}

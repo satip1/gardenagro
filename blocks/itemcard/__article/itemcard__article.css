@@ -1,0 +1,13 @@
+.itemcard__article {
+    font-size: var(--textSizeSmall);
+    color: var(--colorTextItemCardAticle);
+}
+
+@media (max-width: 1024px) {
+.itemcard__article {
+    font-size: 10px;   
+}
+    }
+
+
+

@@ -1,0 +1,7 @@
+.cart__title_deactive {}
+
+@media (max-width: 767px) {
+    .cart__title_deactive {
+        display: none;
+    }
+}

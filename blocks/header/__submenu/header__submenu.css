@@ -1,0 +1,27 @@
+.header__submenu {
+    position: absolute;
+    top: 100%;
+    left: var(--paddingSizeBlockX);
+    right: 0;
+    /* padding: 0 var(--paddingSizeBlockX); */
+    z-index: 3;
+    max-width: 33%;
+    /* border: 2px solid red; */
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    .header__submenu {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__submenu {
+        left: 0px;
+        padding: 0 var(--paddingSizeBlockX);
+        max-width: 100%;
+    }
+
+}

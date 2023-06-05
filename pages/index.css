@@ -1,0 +1,183 @@
+/* подключаем шрифты */
+@import url('../vendor/fonts.css');
+
+/* нормализация стилей */
+@import url('../vendor/normalize.css');
+
+/* значения переменных */
+@import url('../blocks/root.css');
+
+/* обертка */
+@import url('../blocks/wrapper/wrapper.css');
+
+/* серый блокиующий фон для меню */
+@import url('../blocks/greywin/greywin.css');
+@import url('../blocks/greywin/_active/greywin_active.css');
+
+/* хедер */
+@import url('../blocks/header/header.css');
+
+@import url('../blocks/header/__inform/header__inform.css');
+@import url('../blocks/header/__city/header__city.css');
+@import url('../blocks/header/__tel/header__tel.css');
+@import url('../blocks/header/__shipment/header__shipment.css');
+@import url('../blocks/header/__shiptext/header__shiptext.css');
+@import url('../blocks/header/__ship/header__ship.css');
+@import url('../blocks/header/__ship/_display/header__ship_display.css');
+@import url('../blocks/header/__item/header__item.css');
+
+@import url('../blocks/header/__submenu/header__submenu.css');
+@import url('../blocks/header/__submenu/_active/header__submenu_active.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__instrum/header__instrum.css');
+@import url('../blocks/header/__instrum/_active/header__instrum_active.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__cart/header__cart.css');
+@import url('../blocks/header/__basket/header__basket.css');
+@import url('../blocks/header/__label/header__label.css');
+@import url('../blocks/header/__label/_active/header__label_active.css');
+@import url('../blocks/header/__price/header__price.css');
+@import url('../blocks/header/__number/header__number.css');
+
+
+/* основной контент */
+@import url('../blocks/main/main.css');
+
+/* меню контента со списком запчастей */
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__instrum/menu__instrum.css');
+@import url('../blocks/menu/__instrum/_active/menu__instrum_active.css');
+@import url('../blocks/menu/__menutitle/menu__menutitle.css');
+@import url('../blocks/menu/__brend/menu__brend.css');
+@import url('../blocks/menu/__namebrend/menu__namebrend.css');
+@import url('../blocks/menu/__arrow/menu__arrow.css');
+@import url('../blocks/menu/__listmodel/menu__listmodel.css');
+@import url('../blocks/menu/__model/menu__model.css');
+@import url('../blocks/menu/__namemodel/menu__namemodel.css');
+@import url('../blocks/menu/__stihl660/menu__stihl660.css');
+
+/* контент со списком запчастей */
+@import url('../blocks/parts/parts.css');
+@import url('../blocks/parts/__content/parts__content.css');
+@import url('../blocks/parts/__title/parts__title.css');
+
+/* список запчастей контента */
+@import url('../blocks/parts/__list/parts__list.css');
+
+
+/* карточка товара в списке товаров*/
+@import url('../blocks/detail/detail.css');
+@import url('../blocks/detail/__foto/detail__foto.css');
+@import url('../blocks/detail/__title/detail__title.css');
+@import url('../blocks/detail/__sales/detail__sales.css');
+@import url('../blocks/detail/__price/detail__price.css');
+@import url('../blocks/detail/__cart/detail__cart.css');
+@import url('../blocks/detail/__btn/detail__btn.css');
+@import url('../blocks/detail/__article/detail__article.css');
+@import url('../blocks/detail/__stock/detail__stock.css');
+@import url('../blocks/detail/__number/detail__number.css');
+
+/* хлебные крошки  */
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+
+
+/* карточка товара при выборе */
+@import url('../blocks/itemcard/itemcard.css');
+@import url('../blocks/itemcard/__title/itemcard__title.css');
+@import url('../blocks/itemcard/__part/itemcard__part.css');
+@import url('../blocks/itemcard/__img/itemcard__img.css');
+@import url('../blocks/itemcard/__gallery/itemcard__gallery.css');
+@import url('../blocks/itemcard/__slider/itemcard__slider.css');
+@import url('../blocks/itemcard/__foto/itemcard__foto.css');
+@import url('../blocks/detail/__img/detail__img.css');
+@import url('../blocks/itemcard/__price/itemcard__price.css');
+@import url('../blocks/itemcard/__offer/itemcard__offer.css');
+@import url('../blocks/itemcard/__caption/itemcard__caption.css');
+@import url('../blocks/itemcard/__text/itemcard__text.css');
+@import url('../blocks/itemcard/__value/itemcard__value.css');
+@import url('../blocks/itemcard/__btn/itemcard__btn.css');
+@import url('../blocks/itemcard/__stock/itemcard__stock.css');
+@import url('../blocks/itemcard/__article/itemcard__article.css');
+@import url('../blocks/itemcard/__related/itemcard__related.css');
+
+/* рекомендованные товары  */
+@import url('../blocks/related/related.css');
+@import url('../blocks/related/__title/related__title.css');
+@import url('../blocks/related/__list/related__list.css');
+@import url('../blocks/related/__card/related__card.css');
+@import url('../blocks/related/__item/related__item.css');
+@import url('../blocks/related/__foto/related__foto.css');
+@import url('../blocks/related/__text/related__text.css');
+@import url('../blocks/related/__offer/related__offer.css');
+@import url('../blocks/related/__price/related__price.css');
+@import url('../blocks/related/__btn/related__btn.css');
+
+
+/* оформление заказа */
+@import url('../blocks/cart/cart.css');
+@import url('../blocks/cart/__empty/cart__empty.css');
+@import url('../blocks/cart/__imgempty/cart__imgempty.css');
+@import url('../blocks/cart/__home/cart__home.css');
+@import url('../blocks/cart/__textempty/cart__textempty.css');
+@import url('../blocks/cart/__linkempty/cart__linkempty.css');
+
+@import url('../blocks/cart/__sent/cart__sent.css');
+@import url('../blocks/cart/__titleok/cart__titleok.css');
+@import url('../blocks/cart/__textok/cart__textok.css');
+
+@import url('../blocks/cart/__sale/cart__sale.css');
+@import url('../blocks/cart/__info/cart__info.css');
+@import url('../blocks/cart/__min/cart__min.css');
+@import url('../blocks/cart/__table/cart__table.css');
+@import url('../blocks/cart/__header/cart__header.css');
+@import url('../blocks/cart/__title/cart__title.css');
+@import url('../blocks/cart/__title/_deactive/cart__title_deactive.css');
+@import url('../blocks/cart/__item/cart__item.css');
+@import url('../blocks/cart/__img/cart__img.css');
+@import url('../blocks/cart/__name/cart__name.css');
+@import url('../blocks/cart/__price/cart__price.css');
+@import url('../blocks/cart/__count/cart__count.css');
+@import url('../blocks/cart/__minus/cart__minus.css');
+@import url('../blocks/cart/__nohover/cart__nohover.css');
+@import url('../blocks/cart/__number/cart__number.css');
+@import url('../blocks/cart/__plus/cart__plus.css');
+@import url('../blocks/cart/__summa/cart__summa.css');
+@import url('../blocks/cart/__total/cart__total.css');
+@import url('../blocks/cart/__text/cart__text.css');
+@import url('../blocks/cart/__finally/cart__finally.css');
+@import url('../blocks/cart/__message/cart__message.css');
+@import url('../blocks/cart/__message/_active/cart__message_active.css');
+@import url('../blocks/cart/__send/cart__send.css');
+@import url('../blocks/cart/__send/_invisible/cart__send_invisible.css');
+@import url('../blocks/cart/__send/_deactive/cart__send_deactive.css');
+
+@import url('../blocks/cart/__arrange/cart__arrange.css');
+@import url('../blocks/cart/__arrange/_active/cart__arrange_active.css');
+@import url('../blocks/cart/__formtitle/cart__formtitle.css');
+@import url('../blocks/cart/__form/cart__form.css');
+@import url('../blocks/cart/__userdata/cart__userdata.css');
+@import url('../blocks/cart/__label/cart__label.css');
+@import url('../blocks/cart/__input/cart__input.css');
+@import url('../blocks/cart/__submit/cart__submit.css');
+
+
+/* модуль главной страницы */
+@import url('../blocks/advice/advice.css');
+@import url('../blocks/advice/__title/advice__title.css');
+@import url('../blocks/advice/__list/advice__list.css');
+
+/* страница доставки и оплаты */
+@import url('../blocks/payment/payment.css');
+
+
+
+/* футер  */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__wrap/footer__wrap.css');
+@import url('../blocks/footer/__title/footer__title.css');
+
+@import url('../blocks/footer/__howtodo/footer__howtodo.css');
+@import url('../blocks/footer/__copyrigth/footer__copyrigth.css');
+@import url('../blocks/footer/__production/footer__production.css');

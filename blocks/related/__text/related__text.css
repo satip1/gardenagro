@@ -1,0 +1,13 @@
+.related__text {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+
+.related__item:hover .related__text {
+    /* font-weight: 600; */
+    color: #323591;
+    text-decoration: underline;
+
+}
