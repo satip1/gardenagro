@@ -17,6 +17,9 @@
 /* хедер */
 @import url('../blocks/header/header.css');
 
+@import url('../blocks/demo/demo.css');
+@import url('../blocks/demo/__text/demo__text.css');
+
 @import url('../blocks/header/__inform/header__inform.css');
 @import url('../blocks/header/__city/header__city.css');
 @import url('../blocks/header/__tel/header__tel.css');
@@ -175,6 +178,7 @@
 
 /* футер  */
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/_sticky/footer_sticky.css');
 @import url('../blocks/footer/__wrap/footer__wrap.css');
 @import url('../blocks/footer/__title/footer__title.css');
 
