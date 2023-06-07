@@ -1,5 +1,6 @@
 # Коммерческий проект Gardenagro.ru
-Действующий сайт https://gardenagro.ru
+Действующий сайт https://gardenagro.ru   
+
 
 ## Разработка шаблона Joomla для сайта gardenagro.ru
 Демо-сайт экранов сайта
