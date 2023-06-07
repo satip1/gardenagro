@@ -56,7 +56,6 @@ document.body.addEventListener('keydown', (evt) => {
         const foto = document.querySelector('.itemcard__foto');
         gallery.addEventListener('mouseover', (evt) => {            
             if (!evt.target.dataset.foto == "") {
-                // console.log(evt.target.dataset.foto);
                 foto.src = evt.target.dataset.foto;
             }
 
