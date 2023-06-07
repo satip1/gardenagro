@@ -415,6 +415,7 @@ html {
     align-items: stretch;
     justify-content: stretch;
     flex-wrap: wrap;
+    border: 1px dotted red;
 }
 .menu {
     background-color: white;
